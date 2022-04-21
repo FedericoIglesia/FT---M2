@@ -1,0 +1,16 @@
+#navbar {
+  background-color: #f4f4f4;
+  padding-top: 0.7rem;
+}
+#navbar ul li {
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  font-size: 2rem;
+  background-color: #f4f4f4;
+  transition: all 0.1s;
+}
+#navbar ul li:hover {
+  background-color: rgba(58, 56, 58, 0.667);
+  cursor: pointer;
+  padding-bottom: 0.4rem;
+  color: #f4f4f4;
+}

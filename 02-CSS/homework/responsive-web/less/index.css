@@ -1,22 +1,3 @@
-.menu {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0;
-  margin-top: 0.5rem;
-}
-@keyframes bouncer {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.5, 1.5);
-    background-color: #e1b91b;
-    color: #333;
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -154,7 +135,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5e6164;
+  color: #5E6164;
 }
 h1,
 h2,
@@ -162,7 +143,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293b;
+  color: #23293B;
 }
 h2 {
   font-size: 3.2rem;
@@ -192,30 +173,12 @@ p {
 #navbar ul li {
   padding: 0.4rem 1rem 0.4rem 1rem;
   font-size: 2rem;
-  background-color: #f4f4f4;
-  transition: all 0.1s;
 }
 #navbar ul li:hover {
   background-color: rgba(58, 56, 58, 0.667);
   cursor: pointer;
   padding-bottom: 0.4rem;
   color: #f4f4f4;
-}
-@media (max-width: 500px) {
-  #navbar ul li {
-    border-bottom: dotted 1px #333;
-    padding: 3px 5px;
-    margin: 3px 5px;
-    width: 100%;
-    text-align: center;
-  }
-}
-@media (max-width: 500px) {
-  #navbar ul {
-    flex-direction: column;
-    align-items: center;
-    transform: scale(0.7);
-  }
 }
 footer {
   color: #22283B;
@@ -234,8 +197,7 @@ footer {
   padding: 0 15px;
 }
 .home .header-img {
-  max-width: 100%;
-  margin: auto;
+  margin: 5px;
   border-radius: 10px;
 }
 .home .music-images {
@@ -249,16 +211,6 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
-@media (max-width: 500px) {
-  .home .music-images .ondas,
-  .home .music-images .tecnologia {
-    display: none;
-  }
-  .home .music-images .auricular {
-    width: 100%;
-    margin: 5px 0 5px 0;
-  }
-}
 .home .musica-nueva {
   padding: 15px;
 }
@@ -268,13 +220,9 @@ footer {
 .home .musica-nueva p {
   margin-top: 13px;
 }
-@media (max-width: 500px) {
-  .home .musica-nueva {
-    border-bottom: 1px solid #dee2e6;
-  }
-}
 .home .actual {
   margin-top: 60px;
+  border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
   justify-content: center;
@@ -285,42 +233,8 @@ footer {
 .home .actual .actual-text h3 {
   margin-bottom: 10px;
 }
-@media (max-width: 500px) {
-  .home .actual .actual-text h3 {
-    margin-bottom: 5px;
-  }
-}
 .home .actual .actual-text p {
   margin-bottom: 26px;
-}
-@media (max-width: 500px) {
-  .home .actual .actual-text p {
-    margin-bottom: 10px;
-  }
-}
-.home .actual .actual-text .btn {
-  background-color: #333;
-  color: #fff;
-  border-radius: 5px;
-  transition: all 1s;
-}
-.home .actual .actual-text .btn:hover {
-  background-color: rgba(58, 56, 58, 0.667);
-  color: #f4f4f4;
-  animation-name: bouncer;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-@media (max-width: 500px) {
-  .home .actual .actual-text .btn {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 500px) {
-  .home .actual .actual-text {
-    width: 100%;
-  }
 }
 .home .actual .actual-img {
   width: 46%;
@@ -330,24 +244,6 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-@media (max-width: 500px) {
-  .home .actual .actual-img {
-    width: 100%;
-    margin: auto;
-  }
-}
-@media (max-width: 500px) {
-  .home .actual {
-    flex-direction: column-reverse;
-    padding: 0;
-    margin: 0;
-  }
-}
-@media (max-width: 500px) {
-  footer {
-    padding: 10px 0 10px 0;
-  }
 }
 body {
   box-sizing: border-box;

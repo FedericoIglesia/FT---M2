@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+@keyframes bouncer {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+    background-color: #e1b91b;
+    color: #333;
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

@@ -1,1 +1,33 @@
 // Código de Nav acá
+#navbar {
+  background-color: #f4f4f4;
+  padding-top: 0.7rem;
+
+  ul {
+    .menu;
+    li {
+      padding: 0.4rem 1rem 0.4rem 1rem;
+      font-size: 2rem;
+      background-color: #f4f4f4;
+      transition: all 0.1s;
+      &:hover {
+        background-color: rgba(58, 56, 58, 0.667);
+        cursor: pointer;
+        padding-bottom: 0.4rem;
+        color: #f4f4f4;
+      }
+      @media @phone {
+        border-bottom: dotted 1px #333;
+        padding: 3px 5px;
+        margin: 3px 5px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+    @media @phone {
+      flex-direction: column;
+      align-items: center;
+      transform: scale(0.7);
+    }
+  }
+}
